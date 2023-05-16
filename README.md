@@ -24,8 +24,7 @@ public class DizininEleman {
             if(i==0) {
                 for( int j=0; j<arr.length; j++) {
                     if ((i != j) && arr[i] == arr[j]) {
-
-                        sayac++;
+                    sayac++;
                     }
                 }
                 System.out.println(arr[i] + " sayısı " + sayac + " tekrar etmiştir.");
@@ -39,9 +38,6 @@ public class DizininEleman {
             }
             sayac=1;
         }
-
-
-
 
     }
 }
