@@ -9,10 +9,10 @@ public class DizininEleman {
         int n=input.nextInt();
 
         int[]arr = new int[n];
-        System.out.println("DIZININ ELEMANLARINI GIRINIZ:");
+        System.out.println("DIZININ ELEMANLARINI GIRINIZ:" );
 
         for (int i=0;i<n;i++){
-            System.out.print((i+1)+".ELEMAN:");
+            System.out.print((i+1)+".ELEMAN:" );
             arr[i]=input.nextInt();
         }
         Arrays.sort(arr);
@@ -28,14 +28,14 @@ public class DizininEleman {
                         sayac++;
                     }
                 }
-                System.out.println(arr[i] + " sayısı " + sayac + " kere tekrar etmiştir.");
+                System.out.println(arr[i] + " sayısı " + sayac + " tekrar etmiştir.");
             }else if (arr[i] != arr[i-1]) {
                 for (int j=0; j< arr.length; j++) {
                     if ((i != j) && (arr[i] == arr[j])) {
                         sayac++;
                     }
                 }
-                System.out.println(arr[i] + " sayısı " + sayac + " kere tekrar etmiştir.");
+                System.out.println(arr[i] + " sayısı " + sayac + "  tekrar etmiştir." );
             }
             sayac=1;
         }
